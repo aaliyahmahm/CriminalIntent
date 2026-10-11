@@ -1,0 +1,6 @@
+<resources>
+    <style name="Theme.CriminalIntent" parent="Base.Theme.CriminalIntent">
+        <item name="android:navigationBarColor">@color/blush</item>
+        <item name="android:windowLightNavigationBar">true</item>
+    </style>
+</resources>

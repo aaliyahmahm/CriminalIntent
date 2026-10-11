@@ -1,0 +1,15 @@
+<resources>
+    <style name="Base.Theme.CriminalIntent" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/rose</item>
+        <item name="colorPrimaryDark">@color/berry</item>
+        <item name="colorAccent">@color/rose</item>
+        <item name="android:windowBackground">@color/blush</item>
+        <item name="android:fontFamily">sans</item>
+        <item name="android:navigationBarColor">@color/berry</item>
+    </style>
+    <style name="Theme.CriminalIntent" parent="Base.Theme.CriminalIntent" />
+    <style name="RoseButton" parent="Widget.AppCompat.Button.Colored">
+        <item name="android:minHeight">48dp</item>
+        <item name="android:layout_marginTop">8dp</item>
+    </style>
+</resources>

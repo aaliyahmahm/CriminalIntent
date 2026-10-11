@@ -1,0 +1,7 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent" android:orientation="vertical" android:padding="16dp">
+    <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/list_heading" android:textSize="24sp" android:textStyle="bold" android:textColor="@color/berry" />
+    <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/list_subtitle" android:textSize="16sp" android:paddingTop="8dp" android:paddingBottom="16dp" android:textColor="@color/muted" />
+    <TextView android:id="@+id/emptyText" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/empty_list" android:textSize="18sp" android:textColor="@color/berry" android:padding="24dp" android:visibility="gone" />
+    <androidx.recyclerview.widget.RecyclerView android:id="@+id/crimeList" android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1" android:clipToPadding="false" android:paddingBottom="16dp" />
+</LinearLayout>

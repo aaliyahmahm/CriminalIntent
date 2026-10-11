@@ -1,0 +1,7 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="96dp" android:orientation="vertical" android:padding="16dp"
+    android:layout_marginBottom="8dp" android:background="@drawable/case_card" android:foreground="?attr/selectableItemBackground" android:clickable="true" android:focusable="true">
+    <TextView android:id="@+id/crimeTitle" android:layout_width="match_parent" android:layout_height="wrap_content" android:textSize="20sp" android:textStyle="bold" android:textColor="@color/berry" />
+    <TextView android:id="@+id/crimeDate" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingTop="6dp" android:textSize="15sp" android:textColor="@color/muted" />
+    <TextView android:id="@+id/crimeStatus" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingTop="6dp" android:textStyle="bold" android:textColor="@color/rose" />
+</LinearLayout>

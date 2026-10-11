@@ -1,0 +1,17 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent" android:fillViewport="true">
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical" android:padding="24dp">
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/title_label" android:textSize="18sp" android:textStyle="bold" android:textColor="@color/berry" />
+        <EditText android:id="@+id/crimeTitle" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="56dp" android:hint="@string/title_hint" android:inputType="textCapSentences|textMultiLine" android:maxLength="200" android:textColor="@color/berry" />
+        <CheckBox android:id="@+id/solved" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="48dp" android:text="@string/solved" android:textColor="@color/berry" />
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="16dp" android:text="@string/date_label" android:textColor="@color/muted" />
+        <Button android:id="@+id/dateButton" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="48dp" />
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/time_label" android:textColor="@color/muted" />
+        <Button android:id="@+id/timeButton" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="48dp" />
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="16dp" android:text="@string/photo_label" android:textColor="@color/muted" />
+        <ImageView android:id="@+id/photo" android:layout_width="match_parent" android:layout_height="220dp" android:layout_marginTop="8dp" android:background="@drawable/case_card" android:scaleType="fitCenter" android:contentDescription="@string/photo_description" />
+        <TextView android:id="@+id/photoStatus" android:layout_width="match_parent" android:layout_height="wrap_content" android:gravity="center" android:text="@string/no_photo" android:textColor="@color/muted" android:padding="8dp" />
+        <Button android:id="@+id/photoButton" style="@style/RoseButton" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/take_photo" />
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="16dp" android:text="@string/save_note" android:textColor="@color/muted" />
+        <Button android:id="@+id/saveButton" style="@style/RoseButton" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/save" />
+    </LinearLayout>
+</ScrollView>
